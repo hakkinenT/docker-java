@@ -38,25 +38,64 @@ Também foi possível por em prática o conceito de Multi-Stage Build para const
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/hakkinenT/docker-java.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd my-project
+  cd docker-java
 ```
 
-Instale as dependências
+Entre no diretório do projeto Java
 
 ```bash
-  npm install
+  cd java21-example-docker
+```
+Crie a Imagem
+
+```bash
+  docker build -t java-example .
 ```
 
-Rode a aplicação
+Obtenha o ID da Imagem
 
 ```bash
-  ./mvnw spring-boot:run
+  docker images
+```
+
+Crie um Container a partir da Imagem
+
+```bash
+  docker run ID-da-imagem
+```
+
+Entre no diretório do projeto Java Spring Boot
+
+```bash
+  cd dockerfile-spring-boot
+```
+Crie a Imagem
+
+```bash
+  docker build -t spring-example .
+```
+
+Obtenha o ID da Imagem
+
+```bash
+  docker images
+```
+
+Crie um Container a partir da Imagem
+
+```bash
+  docker run -p 8080:8080 ID-da-imagem
+```
+
+Abra um Navegador da Web com a seguinte URL
+```bash
+  http://localhost:8080/
 ```
 
 <a id="autores"></a>
