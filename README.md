@@ -29,9 +29,10 @@ Foram criadas duas Imagens no Docker, uma para rodar uma simples aplicação Jav
 <a id="aprendizados"></a>
 ## Aprendizados
 
-Nesse projeto foi possível aprender como se dá a criação de Imagens no Docker a partir de uma imagem de um Sistema Operacional vazio, 
+Nesse projeto foi possível aprender como se dá a criação de Imagens no Docker a partir de uma imagem de um Sistema Operacional Alpine vazio, 
 instalando as dependências necessárias e também configurando as variáveis de ambientes nesse S.O. 
-Também foi possível por em prática o conceito de Multi-Stage Build para construir uma das Imagens no Docker.
+Também foi possível por em prática o conceito de Multi-Stage Build para construir uma das Imagens no Docker. 
+Além disso, foi possível aprender como publicar uma Imagem em um repositório no Docker Hub.
 
 <a id="docker-hub"></a>
 ## Docker Hub
