@@ -10,6 +10,7 @@
 - [Sobre o projeto](#sobre-o-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Aprendizados](#aprendizados)
+- [Docker Hub](#docker-hub)
 - [Rodando localmente](#rodando-localmente)
 - [Autores](#autores)
 
@@ -31,6 +32,15 @@ Foram criadas duas Imagens no Docker, uma para rodar uma simples aplicação Jav
 Nesse projeto foi possível aprender como se dá a criação de Imagens no Docker a partir de uma imagem de um Sistema Operacional vazio, 
 instalando as dependências necessárias e também configurando as variáveis de ambientes nesse S.O. 
 Também foi possível por em prática o conceito de Multi-Stage Build para construir uma das Imagens no Docker.
+
+<a id="docker-hub"></a>
+## Docker Hub
+
+A imagem do projeto Spring Boot está publicada no Docker Hub. Basta acessar o link abaixo.
+
+```bash
+  https://hub.docker.com/r/tholhakk/spring-boot-hello-world
+```
 
 <a id="rodando-localmente"></a>
 ## Rodando localmente
